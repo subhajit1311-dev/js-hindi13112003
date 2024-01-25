@@ -46,3 +46,28 @@ console.log(typeof bigNumber);
 
 
 
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive  ... call  by value  ), heap(non-primitive  ...call by reference)
+
+let myYoutubename = "subhajitroyofficial"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+ console.log(myYoutubename); 
+ console.log(anothername);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "subhajit132@oksbi"
+}
+
+let usertwo = userOne;
+usertwo.email = "hithesh@google.com"
+console.log(userOne.email);
+
+
+
+
