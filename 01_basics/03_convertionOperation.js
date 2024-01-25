@@ -2,7 +2,7 @@ let score = "subhajit" // check it for i> 33 ,ii> null,iii> undefined iv> "33abc
 // number in " "-> means it is a string
 //const {score} =  req.body
 // we dont know the datatype of score stored in 3 rd line
-//console.log(typeof score);
+console.log(typeof score);
 //console.log(typeof(score));
 
 let valueInNumber = Number(score)
