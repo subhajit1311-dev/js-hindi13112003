@@ -10,6 +10,7 @@ const myHeros = ["shaktiman","naagraj","hulk"]
 
 const myArr2 = new Array(1,2,3,4)
 //console.log(myArr2[0])
+console.log(myHeros[0]);
 
 //ARRAY METHODS
 
