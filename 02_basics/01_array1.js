@@ -20,8 +20,10 @@ myArr.pop()
 
 //myArr.unshift(9) // element array er front side part die insert hoy but bad practice because er jonno 
 //sob element ke shift korte hoy next place e
+//console.log(myArr);
 
-//myArr.shift()
+myArr.shift()
+//console.log(myArr);
 
 //console.log(myArr.includes(9)) // datatype of this operation is boolean
 //console.log(myArr.indexOf(3))
@@ -30,6 +32,7 @@ const newArr = myArr.join()
 // naturally join changed the array into a string and 
 
 //console.log(myArr)
+
 //console.log(newArr)
 //console.log(typeof newArr)
 
@@ -46,7 +49,7 @@ const myn2 = myArr.splice(1,3)
 console.log("c " , myArr);
 console.log(myn2);
 
-//splice e main array manipulate hoye jai but slice e main array manipulate hoy na and the element remove 
+//splice e main array manipulate hoye jai but slice e main array manipulate hoy na and the element remove o hoy na
 //till range is given in splice
 
 
