@@ -23,6 +23,6 @@ console.log(Instructor) // object destructuring
 
 ]
 
-//javascript object notation
+//javascript object notation - json
 
 //json formatter ~ resources
