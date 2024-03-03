@@ -37,3 +37,35 @@ buttons.forEach(function (button) {
 });
 
 ```
+
+## project 2
+```javascript
+
+ const form = document.querySelector('form');
+
+form.addEventListener('submit',function(e){
+       e.preventDefault();
+      const height = parseInt(document.querySelector('#height').value);
+      const weigth = parseInt(document.querySelector('#weight').value);
+      const results  = document.querySelector('#results')
+
+
+if(height === '' || height<0 || isNaN(height))
+{
+      results.innerHTML = `please give a valid height ${height}`;
+}
+
+else if(weigth === '' || weigth<0 || isNaN(weigth))
+{
+      results.innerHTML = `please give a valid weight ${weigth}`;
+}
+else{
+     const bmi =  (weigth/((height*height)/10000)).toFixed(2)
+
+     results.innerHTML = `<span>${bmi}</span>`;
+
+}
+
+});
+
+```
