@@ -2,7 +2,7 @@ const score = 400 // by default datatype of the score is number
 //console.log(score)
 
 const balance = new Number(100.8734) // balance er datatype ta strictly number datatype e typecasted
-//console.log(balance);
+console.log(balance);
 
 
 //console.log(balance.toString());
@@ -11,7 +11,7 @@ const balance = new Number(100.8734) // balance er datatype ta strictly number d
 const otherName = 23.6648
 //console.log(otherName.toPrecision(3));
 
-const divk = 123.4548
+const divk = 1213.3148
 //console.log(divk.toPrecision(3));
 
 const hundreds = 1000000
