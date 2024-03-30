@@ -17,7 +17,7 @@ let isloggedIn = false
 //bigInt - big number er store  er jonno
 //string -> ""
 //boolean -> true/false
-//null -> standalone value , value assign here but for any unknown reason the value should not be 
+//null -> standalone value, value assign here but for any unknown reason the value should not be 
 //assigned on the mean time
 //undefined -> variable declare here but value in the variable should not be assigned in that mean time 
 //symbol -> uniqueness
@@ -32,3 +32,4 @@ console.log(typeof "hitesh")
 
 console.log(typeof null) //important typeof null is a object
 
+console.log(typeof undefined)
