@@ -39,10 +39,10 @@ let myObj =
 }
 
 const myfunction = function(){
-    console.log("hello world");
+   // console.log("hello world");
 }
 
-console.log(typeof bigNumber);
+console.log(typeof anotherId);
 
 
 
@@ -60,7 +60,7 @@ anothername = "chaiaurcode"
  console.log(anothername);
 
 let userOne = {
-    email: "user@gmail.com",
+    email: "user@gmail.com", 
     upi: "subhajit132@oksbi"
 }
 
