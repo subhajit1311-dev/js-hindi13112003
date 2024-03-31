@@ -58,7 +58,6 @@ function handleObject(anyobject){
 
 //handleObject(user)
 handleObject({
-
     username: "sam",
     price: 399
 }
