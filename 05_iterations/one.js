@@ -1,8 +1,8 @@
 //for
 
-for(let index=0;index<10;index++)
+for(let i=0;i<10;i++)
 {
-    const ele = index;
+    const ele = i;
     if(ele == 5)
     {
         //console.log("5 is best number");
@@ -35,3 +35,16 @@ for (let index = 1; index <=20 ; index++) {
     }
    console.log(`value of i is ${index}`);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
