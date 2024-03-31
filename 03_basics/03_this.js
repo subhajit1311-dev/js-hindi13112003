@@ -76,3 +76,20 @@ const myArray  = [2,5,6,7,8]
 //myArray.forEach(function () {})
 myArray.forEach(() => {})
 
+
+//namaste js
+
+getName();
+console.log(x);
+
+var x = 7;
+function getName()
+{
+    console.log("namaste js")
+}
+
+//getName();
+//console.log(x);
+
+
+//hoisting is that kind of phenomena by which you access some function or variable before initializing it
