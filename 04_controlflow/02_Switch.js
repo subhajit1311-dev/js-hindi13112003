@@ -7,7 +7,7 @@
 
 // }
 
-const month = 3;
+const month =3;
 
 // duplicate shortcut -> shift+alt+down arrow
 switch(month)
@@ -20,10 +20,10 @@ switch(month)
         break;
     case 3:
         console.log("March") //code  kono option e execute korar por tar nicher baki statement o execute hobe except default case
-        break;
+    
     case 4:
         console.log("april")
-        break;
+      
     default:
         console.log("default case match")
         break;
