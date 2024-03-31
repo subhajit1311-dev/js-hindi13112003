@@ -5,9 +5,9 @@ const user = {
     welcomeMessage: function()
     {
         //console.log(`${this.username},welcome to website `)
-        //console.log(this)
+       // console.log(this)
 
-    }//cuurent context ke refer kore this keyword
+    }//current context ke refer kore this keyword
 }
 
 // user.welcomeMessage()
@@ -21,8 +21,8 @@ const user = {
 
 function chai(){
     let userName = "subhajit";
-    //console.log(this);
-    //console.log(this.userName);//function er under e thaka this ke access kora jai na jerom object e easily hoye jacchilo 
+   // console.log(this);
+   //console.log(this.userName);//function er under e thaka this ke access kora jai na jerom object e easily hoye jacchilo 
 }
 chai();
 
@@ -37,7 +37,7 @@ chaI()
 
 const Chai = () => {
     let userName = "subhajit";
-    //console.log(this);
+   //console.log(this);
     //console.log(this.userName);
 } //arrow function
 
@@ -49,7 +49,6 @@ Chai()
 //basic structure
 const addtwo = (num1,num2) => {
     return num1+num2
-
 }
 
 //console.log(addtwo(3,4))
@@ -68,24 +67,24 @@ const addtwo = (num1,num2) => {
 const addTwo = (num1,num2) => ({username:  "subhajit"})
 
 
-console.log(addTwo(3,4));
+//console.log(addTwo(3,4));
 
 
 
 const myArray  = [2,5,6,7,8]
-//myArray.forEach(function () {})
+//myArray.forEach(function (){})
 myArray.forEach(() => {})
 
 
 //namaste js
 
 getName();
-console.log(x);
+//console.log(x);
 
 var x = 7;
 function getName()
 {
-    console.log("namaste js")
+    //console.log("namaste js")
 }
 
 //getName();
