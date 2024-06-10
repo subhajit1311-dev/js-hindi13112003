@@ -15,4 +15,4 @@ accountPassword = "544466654511"
 prefer not to use var because the issue of in block scope and functional scope
 */
 console.log(accountId);
-console.table([accountId,accountEmail,accountPassword,accountState]) 
+console.table([accountId,accountEmail,accountPassword,accountState])
