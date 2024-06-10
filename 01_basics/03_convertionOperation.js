@@ -13,7 +13,8 @@ let valueInNumber = Number(score)
 // "33abc" -> NaN 
 // true -> 1; false -> 0;
 //"subhajit" -> NaN
-
+//null -> 0
+//undefined -> NaN
 
 
 let isLoggedIn = 1
@@ -68,6 +69,12 @@ num1 = num2 = num3 = 2 + 2 // readability hampered
 
  let gamecounter = 100 
  gamecounter++;
- console.log(gamecounter);
+ //console.log(gamecounter);
 
  
+
+
+let age = 33;
+console.log(typeof age);
+
+
