@@ -58,7 +58,7 @@ let str3 = str1 + str2
 // console.log("1" + "2");
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
-// console.log((3+4) * 5 % 3)
+ //console.log((3+4) * 5 % 3)
 
 
 //console.log(+true);//bad practice
@@ -74,7 +74,5 @@ num1 = num2 = num3 = 2 + 2 // readability hampered
  
 
 
-let age = 33;
-console.log(typeof age);
 
 
