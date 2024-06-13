@@ -16,9 +16,9 @@ const all_new_heros = [  ...marvel_heros,  ...dc_heros]
 
 
 // spread
-const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const another_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]];
 
-const real_another_array = another_array.flat(100)
+const real_another_array = another_array.flat(100);
 console.log(real_another_array);
 
 console.log(Array.isArray("subhajit"))

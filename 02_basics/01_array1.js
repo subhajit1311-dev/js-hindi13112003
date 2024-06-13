@@ -17,12 +17,12 @@ const myArr2 = new Array(1,2,3,4)
 myArr.push(6)
 myArr.push(7)
 myArr.pop()
-//console.log(myArr);
 
 myArr.unshift(9) // element array er front side part die insert hoy but bad practice because er jonno 
 //sob element ke shift korte hoy next place e
 //console.log(myArr);
 
+//console.log(myArr);
 myArr.shift()
 //console.log(myArr);
 
