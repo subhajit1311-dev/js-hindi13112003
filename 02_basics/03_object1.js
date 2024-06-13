@@ -33,7 +33,7 @@ JsUser.email = "hitesh@microsoft.com"
 //console.log(JsUser);
 
 JsUser.greeting = function(){
-    console.log("Hello js user");
+    console.log(`Hello js user`);
 } 
 JsUser.greetingtwo = function(){
     console.log(`Hello js user, ${this.name}`);
