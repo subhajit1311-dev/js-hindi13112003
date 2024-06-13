@@ -9,7 +9,7 @@ const myArr = [0,1,2,3,4,5]
 const myHeros = ["shaktiman","naagraj","hulk"]
 
 const myArr2 = new Array(1,2,3,4)
-//console.log(myArr2[0])
+//console.log(myArr2[0]);
 //console.log(myHeros[0]);
 
 //ARRAY METHODS
@@ -21,10 +21,10 @@ myArr.pop()
 
 myArr.unshift(9) // element array er front side part die insert hoy but bad practice because er jonno 
 //sob element ke shift korte hoy next place e
-console.log(myArr);
+//console.log(myArr);
 
 myArr.shift()
-console.log(myArr);
+//console.log(myArr);
 
 //console.log(myArr.includes(9)) // datatype of this operation is boolean
 //console.log(myArr.indexOf(3))
